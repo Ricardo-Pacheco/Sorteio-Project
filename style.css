@@ -27,11 +27,11 @@ h2 {
     margin-right: 62px;
 }
 
-.input-right{
+.input-right {
     margin-right: 62px;
 }
 
-label{
+label {
     color: #FFF;
     font-size: 32px;
     font-weight: 400;
@@ -66,10 +66,79 @@ button {
     border: none;
 }
 
-button:hover{
+button:hover {
     opacity: 0.8;
 }
 
-button:active{
+button:active {
     opacity: 0.4;
+}
+
+@media screen and (max-width: 700px) {
+
+    body{
+        margin-top: 100px;
+    }
+
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    img {
+        width: 250px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    input {
+        max-width: 200px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 25px;
+    }
+
+    .input-left{
+        margin-bottom: 10px;
+        position: relative;
+        left: 32px;
+    }
+
+    .input-right{
+        margin-bottom: 10px;
+        position: relative;
+        left: 32px;
+    }
+
+    .result-input{
+        margin-top: 10px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    label {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    button {
+        max-width: 200px;
+        height: 50px;
+        font-size: 25px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
